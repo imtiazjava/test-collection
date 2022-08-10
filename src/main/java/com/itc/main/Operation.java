@@ -4,8 +4,12 @@ public class Operation {
 	
 	
 	public int add(int a,int b) {
-	    //TODO: Write the code Here
-		return 0;
+	    if(a<0 || b<0)
+	    	return -1;
+	    else if(a==0 || b==0)
+	    	return -2;
+	    else 
+		return a+b;
 	}
 
 }
